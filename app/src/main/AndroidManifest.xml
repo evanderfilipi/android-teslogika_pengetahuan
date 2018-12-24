@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="efpappstudy.teslogikapengetahuan">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconapk"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity
+            android:name=".splash_screens"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tebak_kata"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tentangapk"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".level_tebak_kata"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".jenis_tl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tes_gambar_6p"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pertanyaan_4p"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tes_warna"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gameover_tw"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tebak_kata_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tebak_kata_3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tebak_kata_4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tebak_kata_5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tebak_kata_6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tebak_kata_7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tebak_kata_8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tebak_kata_9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tebak_kata_10"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".menu_utama"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hasil_tl_gambar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hasil_tl_pertanyaan"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

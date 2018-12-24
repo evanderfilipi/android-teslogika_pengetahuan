@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapk"
+    tools:context="efpappstudy.teslogikapengetahuan.hasil_tl_gambar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HASIL AKHIR"
+        android:textSize="80dp"
+        android:id="@+id/txtjudulhasil1"
+        android:textColor="#008000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BENAR"
+        android:id="@+id/txtbenar1"
+        android:textSize="44dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/txtjudulhasil1"
+        android:layout_alignLeft="@+id/txtjudulhasil1"
+        android:layout_alignStart="@+id/txtjudulhasil1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="68dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALAH"
+        android:id="@+id/txtsalah1"
+        android:textSize="44dp"
+        android:textColor="#000000"
+        android:layout_alignBottom="@+id/txtbenar1"
+        android:layout_alignRight="@+id/txtjudulhasil1"
+        android:layout_alignEnd="@+id/txtjudulhasil1"
+        android:layout_marginRight="2dp"
+        android:layout_marginEnd="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="44dp"
+        android:id="@+id/scorebenar1"
+        android:textColor="#000000"
+        android:layout_below="@+id/txtbenar1"
+        android:layout_alignLeft="@+id/txtbenar1"
+        android:layout_alignStart="@+id/txtbenar1"
+        android:layout_alignRight="@+id/txtbenar1"
+        android:layout_alignEnd="@+id/txtbenar1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="44dp"
+        android:textColor="#000000"
+        android:id="@+id/scoresalah1"
+        android:layout_below="@+id/txtsalah1"
+        android:layout_alignRight="@+id/txtsalah1"
+        android:layout_alignEnd="@+id/txtsalah1"
+        android:layout_alignLeft="@+id/txtsalah1"
+        android:layout_alignStart="@+id/txtsalah1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE"
+        android:id="@+id/txtscore1"
+        android:textSize="44dp"
+        android:textColor="#000000"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/scorebenar1"
+        android:layout_alignLeft="@+id/scorebenar1"
+        android:layout_alignStart="@+id/scorebenar1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRADE"
+        android:id="@+id/txtgrade1"
+        android:textSize="44dp"
+        android:textColor="#000000"
+        android:layout_alignBottom="@+id/txtscore1"
+        android:layout_alignRight="@+id/scoresalah1"
+        android:layout_alignEnd="@+id/scoresalah1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="44dp"
+        android:id="@+id/totalscore1"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtscore1"
+        android:layout_alignLeft="@+id/txtscore1"
+        android:layout_alignStart="@+id/txtscore1"
+        android:layout_alignRight="@+id/txtscore1"
+        android:layout_alignEnd="@+id/txtscore1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textSize="44dp"
+        android:textColor="#000000"
+        android:id="@+id/gradenya1"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtgrade1"
+        android:layout_alignRight="@+id/txtgrade1"
+        android:layout_alignEnd="@+id/txtgrade1"
+        android:layout_alignLeft="@+id/scoresalah1"
+        android:layout_alignStart="@+id/scoresalah1" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imgemot1"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/totalscore1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE TERTINGGI"
+        android:id="@+id/txtscoretertinggi1"
+        android:textSize="44dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/imgemot1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        android:textSize="44dp"
+        android:id="@+id/scoretertinggi1"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_below="@+id/txtscoretertinggi1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/resetbtn1"
+        android:background="@drawable/btnreset"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/btnshare"
+        android:id="@+id/sharebtn1"
+        android:layout_marginRight="60dp"
+        android:layout_alignTop="@+id/resetbtn1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/btnplay"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/playbtn1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtket1"
+        android:textSize="36dp"
+        android:textColor="#000000"
+        android:text="mini text"
+        android:layout_marginBottom="6dp"
+        android:layout_above="@+id/playbtn1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TES LOGIKA (GAMBAR)"
+        android:textSize="42dp"
+        android:id="@+id/teks1"
+        android:layout_below="@+id/txtjudulhasil1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

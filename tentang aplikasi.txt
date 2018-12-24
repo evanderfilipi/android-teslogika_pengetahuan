@@ -1,0 +1,11 @@
+KUIS LOGIKA DAN TEBAK KATA
+
+Develop by: Evander Filipi Pardede
+E-m@il: evanderfilipi@gmail.com
+
+Sebuah aplikasi sederhana yang terdiri dari 5 level soal
+dengan 10 pertanyaan yang siap anda jawab pada masing-masing
+level soal kuis logika dan tebak kata.
+Jika terdapat kesalahan dalam penulisan soal/tidak sesuainya
+jawaban, atau punya saran soal + jawabannya, silahkan kirim
+ke alamat e-mail yang sudah tertera. 
